@@ -1,0 +1,158 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/AlanFSlaterCompanyNet/PerFormOpen/master/PerFormOpen/schemas/formDesignSchema.json",
+  "title": "All field types",
+  "formTitle": "A form with all field types",
+  "outputTable": "Sample",
+  "pages": [
+    {
+      "name": "page1",
+      "title": "Page One",
+      "fields": [
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Text fields"
+        },
+        {
+          "type": "text",
+          "label": "Text field",
+          "name": "text0"
+        },
+        {
+          "type": "text",
+          "label": "Text help & tooltip",
+          "name": "text1",
+          "help": "Help text for this field",
+          "tooltip": "Tooltip for this field"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Numeric fields"
+        },
+        {
+          "type": "numeric",
+          "label": "Plain numeric field",
+          "name": "numeric0"
+        },
+        {
+          "type": "numeric",
+          "label": "No decimal places",
+          "name": "numeric1",
+          "decimalPlaces": 0
+        },
+        {
+          "type": "numeric",
+          "label": "Percentage",
+          "name": "percentage0",
+          "decimalPlaces": 1,
+          "percentage": true
+        },
+        {
+          "type": "numeric",
+          "label": "Numeric help & tooltip",
+          "name": "numeric2",
+          "help": "Help text for this field",
+          "tooltip": "Tooltip for this field"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Currency fields"
+        },
+        {
+          "type": "currency",
+          "label": "Plain currency field",
+          "name": "currency0"
+        },
+        {
+          "type": "currency",
+          "label": "Currency help & tooltips",
+          "name": "currency1",
+          "help": "Help text for this field",
+          "tooltip": "Tooltip for this field"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Boolean fields"
+        },
+        {
+          "type": "boolean",
+          "label": "Boolean",
+          "name": "boolean0"
+        },
+        {
+          "type": "boolean",
+          "label": "Boolean - labels set",
+          "name": "boolean1",
+          "labelTrue": "For",
+          "labelFalse": "Against"
+        },
+        {
+          "type": "boolean",
+          "label": "Boolean tooltips & help",
+          "name": "boolean2",
+          "tooltipFalse": "A tooltip for the No option",
+          "tooltipTrue": "A tooltip for the Yes option",
+          "help": "Some help text for this field that is shown in a dialog"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Choice fields"
+        },
+        {
+          "type": "choice",
+          "label": "Plain choice field",
+          "name": "choice0",
+          "values": [
+            [ "n", "North" ],
+            [ "s", "South" ],
+            [ "e", "East" ],
+            [ "w", "West" ]
+          ]
+        },
+        {
+          "type": "choice",
+          "label": "Choice tooltips & help",
+          "name": "choice1",
+          "values": [
+            [ "n", "North" ],
+            [ "s", "South" ],
+            [ "e", "East" ],
+            [ "w", "West" ]
+          ],
+          "help": "Help text for this field",
+          "tooltip": "Tooltip for this field"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Date fields"
+        },
+        {
+          "type": "date",
+          "label": "Plain date field",
+          "name": "date0"
+        },
+        {
+          "type": "date",
+          "label": "Date field tooltips and help",
+          "name": "date1",
+          "help": "Help text for this field",
+          "tooltip": "Tooltip for this field"
+        },
+        {
+          "type": "static",
+          "style": "heading",
+          "title": "Submit fields"
+        },
+        {
+          "type": "submit",
+          "width": 5
+        }
+      ]
+    }
+  ]
+}
