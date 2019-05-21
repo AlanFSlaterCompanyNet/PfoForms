@@ -16,12 +16,12 @@
         {
           "type": "text",
           "label": "Text field",
-          "name": "text0"
+          "name": "Text0"
         },
-        {
+        {   
           "type": "text",
           "label": "Text help & tooltip",
-          "name": "text1",
+          "name": "Text1",
           "help": "Help text for this field",
           "tooltip": "Tooltip for this field"
         },
